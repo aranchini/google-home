@@ -1,5 +1,9 @@
 header{
-    background:red
+   
+}
+header a{
+    text-decoration:none;
+    line-height: 1.3px;
 }
 .header-menu{
 
