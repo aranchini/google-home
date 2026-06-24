@@ -1,15 +1,53 @@
 header{
-
+    background:red
 }
 .header-menu{
 
 }
-.header-menu img{
-    
+.grid-icon{
+    width: 48px;
+    height: 48px;
+}
+.profile-icon{
+    width: 48px;
+    height: 48px;
 }
 .main{
 
 }
+.logo{
+    width: 272px;
+    height: 92px;
+}
+.search-icon{
+    width: 16px;
+    height: 16px;
+}
+.search-input{
+
+}
+.mic-icon{
+    width: 26px;
+    height: 36px;
+}
+.camera-icon{
+    width: 26px;
+    height: 36px;
+}
 .shortcut-container{
 
+}
+.shortcut-item{
+    
+}
+.sum-icon{
+    width: 24px;
+    height: 24px;
+}
+.footer{
+    
+}
+.pencil-icon{
+    width: 16px;
+    height: 16px;
 }
