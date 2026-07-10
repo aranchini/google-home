@@ -7,6 +7,7 @@
     <title>Momentum</title>
   </head>
   <body>
+    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
       <input
         required
@@ -17,14 +18,18 @@
       <input type="submit" value="Log In" />
     </form>
     <h1 class="hidden" id="greeting"></h1>
-    <h2 id="clock">00:00:00</h2>
+    <form id="todo-form">
+      <input type="text" placeholder="오늘 할일을 작성후 엔터를 눌러주세요!" required/>
+    </form>
+    <ul id="todo-list"></ul>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-    <script src="clocck.js"></script>
+    <script src="clock.js"></script>
     <script src = "greetings.js"></script>
     <script src="Quotes.js"></script>
     <script src="background.js"></script>
+    <script src="todo.js"></script>
   </body>
 </html>
